@@ -4,8 +4,8 @@ import { getNotes, getNote, createNote, deleteNote } from "../controllers/noteCo
 const router = express.Router();
 
 router.get("/", getNotes);
-// router.get("/:id", getNote);
+router.get("/:id", getNote);
 router.post("/", createNote);
-// router.delete("/:id", deleteNote);
+router.delete("/:id", deleteNote);
 
 export default router;
