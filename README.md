@@ -45,6 +45,10 @@ npm run dev
 
 ---
 
+## 🌐 Hosted API
+The API is hosted on Render. You can access it at:
+[(https://noteapi1.onrender.com)](https://noteapi1.onrender.com)
+
 ## 📝 API Endpoints
 
 ### **1️⃣ Create a Note**
